@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="bs_dialog_bg">#59000000</color>
+
+	<!-- [팝업] 검정 버튼 배경 -->
+	<color name="bs_black_btn_bg">#61646D</color>
+	<!-- [팝업] 빨간 버튼 배경 -->
+	<color name="bs_red_btn_bg">#EF6650</color>
+
+</resources>

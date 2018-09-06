@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+	<style name="BlueSky05" />
+	<style name="BlueSky05.BottomBtn">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">@dimen/dp_36</item>
+		<item name="android:gravity">center</item>
+		<item name="android:textSize">@dimen/dp_12</item>
+	</style>
+	<style name="BlueSky05.BottomBtn.Black">
+		<item name="android:background">@color/bs_black_btn_bg</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+	<style name="BlueSky05.BottomBtn.Red">
+		<item name="android:background">@color/bs_red_btn_bg</item>
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+	<style name="BlueSky05.DialogTheme" parent="android:Theme.Translucent.NoTitleBar" >
+		<item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+	</style>
+</resources>
