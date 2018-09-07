@@ -3,7 +3,7 @@ package kr.co.bluesky05.dialog;
 /**
  * android api 11 (3.0) 이상부터 사용 가능합니다
  */
-public class BSDialogFactory {
+public final class BSDialogFactory {
 	public static String LOG_NAME = "BSDialogFactory";
 
 	public static final class Type {
@@ -34,5 +34,9 @@ public class BSDialogFactory {
 			return type.cast(new TwoBtnBSDialog.TwoBtnBuilder());
 		}
 		return null;
+	}
+
+	private BSDialogFactory() {
+		;
 	}
 }
